@@ -12,4 +12,4 @@ plt.show()
 sns.set()
 cols = ['SalePrice', 'OverallQual', 'GrLivArea', 'GarageCars', 'TotalBsmtSF', 'FullBath', 'YearBuilt']
 sns.pairplot(df_train[cols], size = 2.5)
-plt.show();
+plt.show()
